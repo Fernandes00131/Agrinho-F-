@@ -3,11 +3,11 @@ body{
 }
 header {
     background-color: black;
+    padding: 0 0 0.1em 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
 }
 header a, header h1{
+    display: block;
     color: white;
 }
 .conteudo{
@@ -21,7 +21,6 @@ header a, header h1{
     justify-content: center;
     margin: 0 5%;
 }
-
 img{
     width: 80%;
     margin: 0 10%;
@@ -29,4 +28,11 @@ img{
 
 p{
     text-align: justify;
+}
+footer {
+    background-color: black;
+    padding: 0 0 0.1em 0; 
+    display: flex;
+    justify-content: center;
+    color: white;
 }
